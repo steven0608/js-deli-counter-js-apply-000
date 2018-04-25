@@ -1,9 +1,9 @@
 
 var n=0
-function takeANumber(katzDeliLine,n=0){
+function takeANumber(katzDeliLine,n){
 n++
     katzDeliLine.push(n);
-    
+
     return ("Welcome,You are number " + n);
   }
 
